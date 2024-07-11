@@ -19,7 +19,7 @@ export default {
         100: `#00674f`,
       },
       cream : {
-        100: `#fcfbe6`
+        100: `#f7f6da`
       },
     },
   },
