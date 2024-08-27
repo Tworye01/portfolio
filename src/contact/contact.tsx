@@ -14,7 +14,7 @@ export default function Contacts() {
           It would be cool to hear from you, feel free to reach out using one of the methods below.
         </p>
 
-        <div className="mt-10 flex space-x-8">
+        <div className="flex space-x-8">
           <a href="https://github.com/Tworye01" target="_blank" rel="noopener noreferrer" className="text-darkgreen-100 hover:text-darkgreen-200 text-7xl">
             <FaGithub />
           </a>
