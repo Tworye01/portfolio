@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './home';
 import Projects from './projects/projects';
 import './index.css';
@@ -10,9 +10,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/portfolio/" element={<Home />} />
-        <Route path="/portfolio/projects" element={<Projects />} />
-        <Route path="/portfolio/contact" element={<Contacts/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contacts />} />
       </Routes>
     </Router>
   </React.StrictMode>,
