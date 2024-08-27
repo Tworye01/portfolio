@@ -8,7 +8,7 @@ export default function Contacts() {
 
       <div className="absolute top-1/2 left-1/2 h-[1000px] w-[1700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-darkgreen-100 opacity-15 blur-[80px] transform z-0"></div>
       
-      <div className="flex flex-col bg-cream-100 rounded-full p-14 items-center text-center mt-64 font-rubik z-10">
+      <div className="flex flex-col shadow-md bg-cream-100 rounded-full p-14 items-center text-center mt-64 font-rubik z-10">
         <h1 className="text-6xl font-bold text-darkgreen-100 mb-8">Get in Touch</h1>
         <p className="text-2xl text-gray-700 mb-12 max-w-lg">
           It would be cool to hear from you, feel free to reach out using one of the methods below.
