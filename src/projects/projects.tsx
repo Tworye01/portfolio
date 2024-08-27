@@ -13,9 +13,9 @@ export default function Projects() {
       </div>
       
       <div className="flex flex-row gap-8  mb-64">
-        <ProjectCardComponent image={'src/assets/tuner.PNG'} title={'Tuner'} description={'Spotify API multiplayer guessing'} link={'https://github.com/j3-n/tuner'}/>
-        <ProjectCardComponent image={'src/assets/cordle.PNG'} title={'Cordle'} description={'A Competative Worlde discord bot'} link={'https://github.com/JPadley18/hackaway-v6'}/>
-        <ProjectCardComponent image={'src/assets/robot.PNG'} title={'EV3 Hangman Robot'} description={'Robot that draws out a game of hangman from the users input'} link={'https://github.com/joseph-beck/hangman-robot'}/>
+        <ProjectCardComponent image={'./assets/tuner.PNG'} title={'Tuner'} description={'Spotify API multiplayer guessing'} link={'https://github.com/j3-n/tuner'}/>
+        <ProjectCardComponent image={'./assets/cordle.PNG'} title={'Cordle'} description={'A Competative Worlde discord bot'} link={'https://github.com/JPadley18/hackaway-v6'}/>
+        <ProjectCardComponent image={'./assets/robot.PNG'} title={'EV3 Hangman Robot'} description={'Robot that draws out a game of hangman from the users input'} link={'https://github.com/joseph-beck/hangman-robot'}/>
       </div>
      
       <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex space-x-8">
