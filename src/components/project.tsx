@@ -15,7 +15,7 @@ interface ProjectCardProps {
         </div>
         <div className="p-4 flex-grow">
           <h3 className="text-2xl drop-shadow-2xl font-bold text-darkgreen-100 mb-2 font-rubik">{title}</h3>
-          <p className="text-gray-700 text-lg">{description}</p>
+          <p className="text-gray-700 font-semibold text-lg">{description}</p>
         </div>
       </a>
     );
