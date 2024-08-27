@@ -21,18 +21,6 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex space-x-8">
-        <a href="https://github.com/Tworye01" target="_blank" className="text-darkgreen-100 hover:text-darkgreen-200 text-6xl">
-          <FaGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/natan-wojcik/" target="_blank" className="text-darkgreen-100 hover:text-darkgreen-200 text-6xl">
-          <FaLinkedin />
-        </a>
-        <a href="mailto:natanwojcik15@gmail.com" className="text-darkgreen-100 hover:text-darkgreen-200 text-6xl">
-          <FaEnvelope />
-        </a>
-      </div>
-
       <NavigationBarComponent />
     </main>
   );

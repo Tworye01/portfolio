@@ -17,18 +17,6 @@ export default function Projects() {
         <ProjectCardComponent image={'./assets/cordle.PNG'} title={'Cordle'} description={'A Competative Worlde discord bot'} link={'https://github.com/JPadley18/hackaway-v6'}/>
         <ProjectCardComponent image={'./assets/robot.PNG'} title={'EV3 Hangman Robot'} description={'Robot that draws out a game of hangman from the users input'} link={'https://github.com/joseph-beck/hangman-robot'}/>
       </div>
-     
-      <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex space-x-8">
-        <a href="https://github.com/Tworye01" target="_blank" className="text-darkgreen-100 hover:text-darkgreen-200 text-6xl">
-          <FaGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/natan-wojcik/" target="_blank" className="text-darkgreen-100 hover:text-darkgreen-200 text-6xl">
-          <FaLinkedin />
-        </a>
-        <a href="mailto:natanwojcik15@gmail.com" className="text-darkgreen-100 hover:text-darkgreen-200 text-6xl">
-          <FaEnvelope />
-        </a>
-      </div>
 
       <NavigationBarComponent />
     </main>
