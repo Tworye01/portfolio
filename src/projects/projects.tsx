@@ -17,7 +17,7 @@ export default function Projects() {
         <ProjectCardComponent
           image={'./assets/tuner.PNG'}
           title={'Tuner'}
-          description={'Spotify API multiplayer guessing'}
+          description={'Spotify API multiplayer guessing game'}
           link={'https://github.com/j3-n/tuner'}
         />
         <ProjectCardComponent
