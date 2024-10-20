@@ -32,6 +32,13 @@ export default function Projects() {
           description={'Robot that draws out a game of hangman from the users input'}
           link={'https://github.com/joseph-beck/hangman-robot'}
         />
+        <ProjectCardComponent
+          image={'./assets/N.PNG'}
+          title={'This Website!'}
+          description={'Cool website written in ReactTS with TailwindCSS'}
+          link={''}
+        />
+        
       </div>
 
       <NavigationBarComponent />
