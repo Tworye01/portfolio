@@ -36,7 +36,7 @@ export default function Projects() {
           image={'./assets/N.PNG'}
           title={'This Website!'}
           description={'Cool website written in ReactTS with TailwindCSS'}
-          link={''}
+          link={'https://tworye01.github.io/portfolio/#/'}
         />
         
       </div>
