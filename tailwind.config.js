@@ -18,8 +18,8 @@ export default {
       darkgreen: {
         100: `#00674f`,
       },
-      cream : {
-        100: `#f7f6da`,
+      cream: {
+        100: `#F7F6DA`,
         200: `#ded0c4`
       },
     },

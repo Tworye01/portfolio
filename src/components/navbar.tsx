@@ -12,7 +12,7 @@ export const NavigationBarComponent = () => {
           <Link
             to="/"
             className={`text-darkgreen-100 text-lg md:text-3xl p-3 md:p-3 shadow-md bg-cream-100 rounded-full border-4 border-darkgreen-100 transition-colors duration-300 ${
-              isActive('/') ? 'bg-darkgreen-100 text-cream-100' : 'hover:bg-darkgreen-100 hover:text-cream-100'
+              isActive('/') ? 'text-cream-100 bg-darkgreen-100 ' : 'hover:bg-darkgreen-100 hover:text-cream-100'
             }`}
           >
             home
