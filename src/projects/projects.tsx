@@ -5,11 +5,12 @@ import { ProjectCardComponent } from '../components/project';
 export default function Projects() {
   return (
     <main className="overflow-y-auto relative flex flex-col items-center bg-cream-100 h-screen">
-       <div className="absolute top-1/2 left-1/2 h-[600px] w-[90%] md:h-[1900px] md:w-[1700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-darkgreen-100 opacity-20 blur-[80px]"></div>
+       <div className="absolute top-1/2 left-1/2 h-[600px] w-[90%] md:h-[2000px] md:w-[1700px] -translate-x-1/2 
+       -translate-y-1/2 rounded-full bg-darkgreen-100 opacity-20 blur-[80px]"></div>
 
       <div className="flex-grow mt-32 flex flex-col items-center">
         <h3 className="p-2 text-2xl drop-shadow-2xl font-bold font-rubik text-darkgreen-100 mb-8 text-center">
-          Click projects to find out more!
+          Projects I have worked on, Click to find out more! 
         </h3>
       </div>
 
@@ -47,6 +48,10 @@ export default function Projects() {
       </div>
 
       <NavigationBarComponent />
+
+      <footer className="w-full text-left py-3 pl-12 text-white text bg-darkgreen-100 bg-opacity-50">
+        © 2024-25 Natan Wojcik
+      </footer>
     </main>
   );
 }
