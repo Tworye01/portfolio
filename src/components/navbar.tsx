@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 export const NavigationBarComponent = () => {
   const location = useLocation();
+
   const isActive = (path: string) => location.pathname === path;
 
   return (
@@ -13,8 +14,8 @@ export const NavigationBarComponent = () => {
             to="/"
             className={`text-lg md:text-3xl p-3 md:p-3 shadow-md rounded-full border-4 border-darkgreen-100 transition-colors duration-300 
               ${isActive('/') 
-                ? 'bg-darkgreen-100 text-cream-100'
-                : 'bg-cream-100 text-darkgreen-100 hover:bg-darkgreen-100 hover:text-cream-100' 
+                ? 'bg-darkgreen-100 text-cream-100' 
+                : 'bg-cream-100 text-darkgreen-100 hover:bg-darkgreen-100 hover:text-cream-100'
               }`}
           >
             home
@@ -22,9 +23,9 @@ export const NavigationBarComponent = () => {
           <Link
             to="/projects"
             className={`text-lg md:text-3xl p-3 md:p-3 shadow-md rounded-full border-4 border-darkgreen-100 transition-colors duration-300 
-              ${isActive('/') 
+              ${isActive('/projects') 
                 ? 'bg-darkgreen-100 text-cream-100'
-                : 'bg-cream-100 text-darkgreen-100 hover:bg-darkgreen-100 hover:text-cream-100' 
+                : 'bg-cream-100 text-darkgreen-100 hover:bg-darkgreen-100 hover:text-cream-100'
               }`}
           >
             projects
@@ -32,8 +33,8 @@ export const NavigationBarComponent = () => {
           <Link
             to="/contact"
             className={`text-lg md:text-3xl p-3 md:p-3 shadow-md rounded-full border-4 border-darkgreen-100 transition-colors duration-300 
-              ${isActive('/') 
-                ? 'bg-darkgreen-100 text-cream-100'
+              ${isActive('/contact') 
+                ? 'bg-darkgreen-100 text-cream-100' 
                 : 'bg-cream-100 text-darkgreen-100 hover:bg-darkgreen-100 hover:text-cream-100' 
               }`}
           >
