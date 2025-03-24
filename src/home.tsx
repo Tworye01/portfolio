@@ -7,16 +7,16 @@ export default function Home() {
     <main className="min-h-screen flex flex-col overflow-hidden relative bg-cream-100">
       <div className="absolute top-1/2 left-1/2 h-96 w-4/5 md:h-[1000px] md:w-[1700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-darkgreen-100 opacity-20 blur-[80px]">
       </div>
-      <div className="flex flex-1 justify-center items-center z-10 pt-32">
+      <div className="flex flex-1 justify-center items-center z-10">
         <div className="text-left">
           <div className="inline-block">
-            <p className="text-5xl sm:text-8xl md:text-9xl font-bold overflow-hidden whitespace-nowrap text-darkgreen-100 drop-shadow-2xl font-rubik animate-typingFirst border-r-4 border-r-darkgreen-100">
+            <p className="text-5xl sm:text-8xl md:text-9xl font-bold overflow-hidden whitespace-nowrap text-darkgreen-100 font-rubik animate-typingFirst border-r-4 border-r-darkgreen-100">
               hi, i'm natan
             </p>
           </div>
           <div className="h-16 sm:h-20 md:h-24 relative">
             <div className="inline-block absolute">
-              <p className="text-3xl sm:text-4xl md:text-5xl font-bold overflow-hidden whitespace-nowrap text-darkgreen-100 drop-shadow-2xl p-2 font-rubik animate-typingSecond border-r-4 border-r-darkgreen-100">
+              <p className="text-3xl sm:text-4xl md:text-5xl font-bold overflow-hidden whitespace-nowrap text-darkgreen-100 p-2 font-rubik animate-typingSecond border-r-4 border-r-darkgreen-100">
                 current student at rhul
               </p>
             </div>

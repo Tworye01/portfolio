@@ -9,7 +9,7 @@ export default function Projects() {
        -translate-y-1/2 rounded-full bg-darkgreen-100 opacity-20 blur-[80px]"></div>
 
       <div className="flex-grow mt-32 flex flex-col items-center">
-        <h3 className="p-2 text-2xl drop-shadow-2xl font-bold font-rubik text-darkgreen-100 mb-8 text-center">
+        <h3 className="p-2 text-3xl drop-shadow-2xl font-bold animate-pulse font-rubik text-darkgreen-100 mb-8 text-center">
           Projects I have worked on, Click to find out more! 
         </h3>
       </div>
@@ -36,8 +36,8 @@ export default function Projects() {
         <ProjectCardComponent
           image={'./assets/N.PNG'}
           title={'This Website!'}
-          description={'Cool website written in ReactTS with TailwindCSS'}
-          link={'https://tworye01.github.io/portfolio/#/'}
+          description={'Cool website written in ReactTS with TailwindCSS and Vite'}
+          link={'https://portfolio-tworye01-tworye01s.vercel.app/'}
         />
         <ProjectCardComponent
           image={'./assets/Oaxaca.PNG'}

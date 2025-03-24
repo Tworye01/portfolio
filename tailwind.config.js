@@ -7,6 +7,11 @@ export default {
   theme: {
     extend: {
       keyframes: {
+        pulse: {
+          "50%":{
+            opacity: "0.85"
+          }
+        },
         typingFirst: {
           "0%": {
             width: "0%",
