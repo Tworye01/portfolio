@@ -10,7 +10,7 @@ export default function Projects() {
 
       <div className="flex-grow mt-32 flex flex-col items-center">
         <h3 className="p-2 text-3xl drop-shadow-2xl font-bold animate-pulse font-rubik text-darkgreen-100 mb-8 text-center">
-          Projects I have worked on, Click to find out more! 
+          Projects I have worked on, click to find out more! 
         </h3>
       </div>
 
