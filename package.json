@@ -30,5 +30,8 @@
     "typescript": "^5.8.3",
     "vite": "^6.2.2"
   },
-  "homepage": "https://tworye01.github.io/portfolio"
+  "homepage": "https://tworye01.github.io/portfolio",
+  "engines": {
+  "node": "22.x"
+}
 }
