@@ -27,11 +27,11 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5.8.3",
+    "typescript": "^5.4.5",
     "vite": "^6.2.2"
   },
   "homepage": "https://tworye01.github.io/portfolio",
   "engines": {
-  "node": "22.x"
-}
+    "node": "22.x"
+  }
 }
